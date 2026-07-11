@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import '../App.css';
 
 function Home() {
   return (
@@ -48,9 +49,7 @@ function Home() {
             View Projects
           </Link>
 
-          {/* <a href="#contact" className="btn-outline">
-            Contact Me
-          </a> */}
+        
 
            <Link
             to="contact"
